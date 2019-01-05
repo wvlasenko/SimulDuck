@@ -13,7 +13,10 @@ public class MiniDuckSimulator {
 		model.setFlybehavior(new FlyRocketPowered());
 		model.performFly();
 		model.performQuack();
+		DecoyDuck decoy = new DecoyDuck ();
+		decoy.display();
+		decoy.performQuack();
 
+	
 	}
-
 }
